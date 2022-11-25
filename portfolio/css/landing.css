@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 2, 53);
+    color: white;
+    font-family: 'Inter';
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5%;
+}
+
+nav div {
+    width: 50%;
+}
+
+#title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+nav div ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav div ul a:hover {
+    color: yellow;
+}
+
+header {
+    display: flex;
+    padding: 5% 15%;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.left div span {
+    color: rgb(141, 134, 255);
+}
+
+#description {
+    width: 80%;
+    padding: 5% 0;
+    text-align: justify;
+}
+
+.right img {
+    width: 450px;
+    height: 100%;
+}
+
+.buttons {
+    width: 100px;
+    padding: 2%;
+    border-radius: 20px;
+    color: white;
+}
+
+
+#button1 {
+    background-color: rgb(108, 99, 255);
+    border: 0;
+}
+
+#button1:hover {
+    background-color: white;
+    color: rgb(108, 99, 255);
+    border: 3px solid rgb(42, 38, 129);
+}
+
+
+#button2 {
+    background-color: rgb(0, 2, 53);
+    border: 3px solid rgb(42, 38, 129);
+    width: fit-content;
+}
+
+#button2:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}

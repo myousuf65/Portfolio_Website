@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.top1 {
+    padding: 2%;
+}
+.top1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.top1 a:hover{
+    color: rgb(177, 57, 57);
+}
+
+nav {
+    width: 30%;
+    float: right;
+
+}
+
+.top1 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#res{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+.left {
+
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+}
+
+/* to be deleted */
+.prof {
+    padding: 7%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+    width: 80%;
+}
+
+.prof p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactInfo {
+    padding: 10% 6%;
+    text-align: center;
+}
+
+.socielMedia {
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: left;
+
+}
+
+.right{
+    width: 90%;
+}
+
+._rightProfile{
+    padding: 3%;
+}
+
+
+.skills{
+    padding: 3%;
+}
+
+.skills div{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    column-gap: 50px;
+}
+
+.skillset ul{
+    list-style:none;
+}
+
+.education{
+    padding: 3%;
+}
+
+.projects{
+    padding: 3%;
+}
+
+.projects ul{
+    list-style: none;
+}
